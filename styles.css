@@ -1,0 +1,52 @@
+body {
+  background-image: url("assets/background.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#container
+{
+  display: flex;
+  height: 70vh;
+  border-style: solid;
+  border-radius: 10px;
+  width: 70vw;
+}
+ul {
+  list-style-type: none;
+}
+#mainNav {
+  background-color: black;
+  height: inherit;
+  width: 30%;
+}
+#mainNav ul {
+  width: 100%;
+  padding-left: 0;
+}
+#mainNav li {
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  width: 100%;
+}
+#mainNav li:hover {
+  background-color: purple;
+}
+#issuesNav {
+  background-color: grey;
+  width: 70%;
+  height: inherit;
+  overflow-y: scroll;
+}
+#issuesNav li {
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
