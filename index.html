@@ -1,6 +1,8 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+    <script type="text/javascript" src="scripts.js"></script>
   </head>
   <body>
     <div id="container">
@@ -12,19 +14,19 @@
         </div>
         <ul>
           <li id="active">
-            <img src="assets/icon-github.svg" alt=""/>
+            <img src="assets/icon-github.svg" alt="" />
             All
-            <strong class="amount">12</strong>
+            <p class="amount">12</p>
           </li>
           <li>
             <img src="assets/icon-open-issue.svg" alt=""/>
             Open
-            <strong class="amount">4</strong>
+            <p class="amount">4</p>
           </li>
           <li>
             <img src="assets/icon-closed-issue.svg" alt=""/>
             Closed
-            <strong class="amount">8</strong>
+            <p class="amount">8</p>
           </li>
         </ul>
       </nav>
@@ -35,50 +37,48 @@
           </li>
           <li class="issue">
             Page changes
-            <img class="starred" src="assets/icon-star.svg" alt=""/>
+            <img class="star starred" onclick="toggleStarred(this)" src="assets/icon-star.svg" alt=""/>
           </li>
           <li class="issue">
             Review of last issues
-            <a href="#starred">
-              <img class="starred" src="assets/icon-star.svg" alt=""/>
-            </a>
+              <img class="star starred" onclick="toggleStarred(this)" src="assets/icon-star.svg" alt=""/>
           </li>
           <li class="issueDate">
             18-07-2016
           </li>
           <li class="issue">
             Visual UI Update Review
-            <img class="star" src="assets/icon-star.svg" alt=""/>
+            <img class="star starred" onclick="toggleStarred(this)" src="assets/icon-star.svg" alt=""/>
           </li>
           <li class="issue">
             Sidebar changes
-            <img class="star" src="assets/icon-star.svg" alt=""/>
+            <img class="star starred" onclick="toggleStarred(this)" src="assets/icon-star.svg" alt=""/>
           </li>
           <li class="issueDate">
             15-07-2016
           </li>
           <li class="issue">
             Crash update
-            <img class="star" src="assets/icon-star.svg" alt=""/>
+            <img class="star starred" onclick="toggleStarred(this)" src="assets/icon-star.svg" alt=""/>
           </li>
           <li class="issue">
             Page visual UI Update Review
-            <img class="starred" src="assets/icon-star.svg" alt=""/>
+            <img class="star starred" onclick="toggleStarred(this)" src="assets/icon-star.svg" alt=""/>
           </li>
           <li class="issue">
             Sidebar update
-            <img class="star" src="assets/icon-star.svg" alt=""/>
+            <img class="star starred" onclick="toggleStarred(this)" src="assets/icon-star.svg" alt=""/>
           </li>
           <li class="issueDate">
             14-07-2016
           </li>
           <li class="issue">
             Crash issue
-            <img class="starred" src="assets/icon-star.svg" alt=""/>
+            <img class="star starred" onclick="toggleStarred(this)" src="assets/icon-star.svg" alt=""/>
           </li>
           <li class="issue">
             Visual update & Crash resolve
-            <img class="starred" src="assets/icon-star.svg" alt=""/>
+            <img class="star starred" onclick="toggleStarred(this)" src="assets/icon-star.svg" alt=""/>
           </li>
         </ul>
       </nav>
